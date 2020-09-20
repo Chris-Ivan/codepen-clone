@@ -3,9 +3,41 @@ import useLocalStorage from "../hooks/useLocalStorage";
 import Editor from "./Editor";
 
 function App() {
-  const [html, setHtml] = useLocalStorage("html", "");
-  const [css, setCss] = useLocalStorage("css", "");
-  const [js, setJs] = useLocalStorage("js", "");
+  const [html, setHtml] = useLocalStorage(
+    "html",
+    `<!--This is a sample-->
+<div class="center">
+  <h1>Hello, world!</h1>
+  <p>Have fun!</p>
+</div>
+    `
+  );
+  const [css, setCss] = useLocalStorage(
+    "css",
+    `/* Hi, there! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Calibri;
+  font-size: 1.25rem;
+  color: gray;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:  hsl(255, 6%, 15%);
+}
+  `
+  );
+  const [js, setJs] = useLocalStorage("js", `// github.com/Chris-Ivan`);
   const [srcDoc, setSrcDoc] = useState("");
 
   useEffect(() => {
