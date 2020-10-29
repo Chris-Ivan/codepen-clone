@@ -1,5 +1,5 @@
 ## Simple Codepen Clone
-![chatroom-home](https://i.ibb.co/pjcq6QK/chatroom-home-min.jpg)
+![codepen-clone](https://i.ibb.co/kJcYY3R/codepen-clone.jpg)
 
 ### Introduction
 A simple Codepen clone for HTML-CSS-JS. The original idea and source code belong to [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) and the tutorial is available [here](https://www.youtube.com/watch?v=wcVxX7lu2d4&ab_channel=WebDevSimplified). This site is now available on [Github Page](https://chris-ivan.github.io/codepen-clone/).<br>
